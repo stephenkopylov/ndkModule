@@ -1,11 +1,11 @@
 package com.example.ndkModule;
 
 public class NativeLib {
-    private native String stringFromJNI();
+    public native String stringFromJNI();
 
-    private native Long createNewWebSocket();
+    public native Long createNewWebSocket();
 
-    private native void runSocket(Long jsContextNativePointer);
+    public native void runSocket(Long jsContextNativePointer);
 
     static {
         System.loadLibrary("ndkModule");
