@@ -1,3 +1,5 @@
 build
-.cxx
-.idea/**/*
+/.cxx
+/.idea/**/*
+/.gradle/
+./gradle/

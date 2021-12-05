@@ -14,6 +14,8 @@
 
 #endif //__ANDROID__
 
+#include <boost/asio.hpp>
+
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_ndkModule_NativeLib_stringFromJNI(
 													 JNIEnv* env,
