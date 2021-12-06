@@ -55,8 +55,8 @@ dependencies {
 //    implementation project(path: ':boost')
 //    implementation project(path: ':mylibrary')
     implementation 'com.github.stephenkopylov:mylibrary:1.3'
-//    implementation 'com.github.stephenkopylov:boost:1.7'
-    implementation ('com.eo:boost:1.0.0')
+    implementation 'com.github.stephenkopylov:mobile-boost:2.8'
+//    implementation ('com.eo:boost:1.0.0')
 }
 
 repositories {
