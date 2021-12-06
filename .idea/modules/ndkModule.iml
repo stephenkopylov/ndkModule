@@ -39,14 +39,17 @@
     <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81d694294b55e7a98a617e611dfc9a79/mylibrary-1.3/prefab/modules/mylibrary/include">
       <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81d694294b55e7a98a617e611dfc9a79/mylibrary-1.3/prefab/modules/mylibrary/include" type="native-header-root" />
     </content>
-    <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8cb94350b72d889530779b01a9cdaa3a/boost-2.8/prefab/modules/boost/include">
-      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8cb94350b72d889530779b01a9cdaa3a/boost-2.8/prefab/modules/boost/include" type="native-header-root" />
-    </content>
     <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a195328aee1b7158621254b25c3bcc6e/openssl-1.1.1g-alpha-1/prefab/modules/crypto/include">
       <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a195328aee1b7158621254b25c3bcc6e/openssl-1.1.1g-alpha-1/prefab/modules/crypto/include" type="native-header-root" />
     </content>
     <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a195328aee1b7158621254b25c3bcc6e/openssl-1.1.1g-alpha-1/prefab/modules/ssl/include">
       <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a195328aee1b7158621254b25c3bcc6e/openssl-1.1.1g-alpha-1/prefab/modules/ssl/include" type="native-header-root" />
+    </content>
+    <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb08c35b454f732f42c11cbd81e57892/eo-mobile-boost-1.76.0/prefab/modules/boost/include">
+      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb08c35b454f732f42c11cbd81e57892/eo-mobile-boost-1.76.0/prefab/modules/boost/include" type="native-header-root" />
+    </content>
+    <content url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8b0bc1ad99f3e5b7759dc95ed2134f7/rapidjson-1.0/prefab/modules/rapidjson/include">
+      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8b0bc1ad99f3e5b7759dc95ed2134f7/rapidjson-1.0/prefab/modules/rapidjson/include" type="native-header-root" />
     </content>
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
@@ -68,6 +71,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.android.ndk.thirdparty:openssl:1.1.1g-alpha-1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.stephenkopylov:mylibrary:1.3@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.stephenkopylov:mobile-boost:2.8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ibitcy:eo-mobile-boost:1.76.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.stephenkopylov:rapidjson:1.0@aar" level="project" />
   </component>
 </module>

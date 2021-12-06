@@ -5,6 +5,7 @@ project("ndkModule")
 find_package(openssl REQUIRED CONFIG)
 find_package(mylibrary REQUIRED CONFIG)
 find_package(boost REQUIRED CONFIG)
+find_package(rapidjson REQUIRED CONFIG)
 
 #set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
 #set(CMAKE_CXX_FLAGS_DEBUG "-g -Wall -Wextra")
@@ -25,4 +26,5 @@ target_link_libraries(
         openssl::ssl
         mylibrary::mylibrary
         boost::boost
+        rapidjson::rapidjson
 )

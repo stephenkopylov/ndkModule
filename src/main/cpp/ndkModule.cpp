@@ -15,6 +15,8 @@
 #endif //__ANDROID__
 
 #include <boost/asio.hpp>
+#include <boost/asio/deadline_timer.hpp>
+#include <rapidjson/document.h>
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_ndkModule_NativeLib_stringFromJNI(
